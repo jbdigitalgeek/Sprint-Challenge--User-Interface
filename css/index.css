@@ -72,13 +72,34 @@ p {
 }
 
 .top-content {
+    border: 1px pink solid;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+header {
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between; 
+}
+header img{
+    border:1px green solid;
+    margin: 20px;
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: bottom;
+}
+header nav a{
+    border: 1px blue solid;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 10px;
 
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -100,12 +121,17 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.boxes .box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color:inherit;
     color: white;
     display: flex;
     align-items: center;
