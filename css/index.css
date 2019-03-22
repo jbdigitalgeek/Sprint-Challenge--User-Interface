@@ -72,7 +72,7 @@ p {
 }
 
 .top-content {
-    border: 1px pink solid;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -80,12 +80,11 @@ p {
     border-bottom: 1px dashed black;
 }
 header {
-    border: 1px red solid;
+
     display: flex;
     justify-content: space-between; 
 }
-header img{
-    border:1px green solid;
+header img {
     margin: 20px;
 }
 header nav{
@@ -94,7 +93,7 @@ header nav{
     align-items: bottom;
 }
 header nav a{
-    border: 1px blue solid;
+    
     margin: 30px;
     text-decoration: none;
     font-size: 10px;
