@@ -253,3 +253,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.about .aboutcontent {
+    margin: 25px;
+    padding: 25px;
+    border-top: 2px solid black;
+}
+.aboutmiddle {
+    display: flex;
+    flex-wrap: wrap;
+}
+.strategy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    margin: 5px;
+}
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    margin: 5px;
+}
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+.collab {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    margin: 5px;
+    padding-bottom: 5px;
+    
+}
+.closing {
+    border-top: 2px solid black;
+    padding: 25px;
+}
